@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBlog - Sonia Nain's Personal Blog</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+    <!--
+    - #HEADER
+  -->
+
+    <header>
+
+        <div class="container">
+
+            <nav class="navbar">
+
+                <a href="#">
+                    <img src="./assets/images/logo-light.svg" alt="Devblog's logo" width="150" class="logo-light">
+                    <img src="./assets/images/logo-dark.svg" alt="Devblog's logo" width="150" class="logo-dark">
+                </a>
+
+                <div class="btn-group">
+
+                    <button class="theme-btn theme-btn-mobile light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+
+                    <button class="nav-menu-btn">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+
+                </div>
+
+                <div class="flex-wrapper">
+
+                    <ul class="desktop-nav">
+
+                        <li>
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about-me.html" class="nav-link">About Me</a>
+                        </li>
+
+                        <li>
+                            <a href="blog-detail.html" class="nav-link">Blog Detail</a>
+                        </li>
+
+                    </ul>
+
+                    <button class="theme-btn theme-btn-desktop light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+
+                </div>
+
+                <div class="mobile-nav">
+
+                    <button class="nav-close-btn">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                    <div class="wrapper">
+
+                        <p class="h3 nav-title">Main Menu</p>
+
+                        <ul>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="about-me.html" class="nav-link">About Me</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="blog-detail.html" class="nav-link">Blog Detail</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div>
+
+                        <p class="h3 nav-title">Topics</p>
+
+                        <ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">WordPress</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">REST APIs</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Web Performance</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+
+
+    <main>
+
+        <!--
+      - #HERO SECTION
+    -->
+
+        <div class="hero">
+
+            <div class="container">
+
+                <div class="left">
+
+                    <h1 class="h1">
+                        Hi, I'm <b>Sonia&nbsp;Nain</b>.
+                        <br>Web Developer
+                    </h1>
+
+                    <p class="h3">
+                        Specialized in <abbr title="Accessibility">Wordpress</abbr>
+                        and Core PHP
+                    </p>
+
+                    <div class="btn-group">
+                        <a href="about-me.html" class="btn btn-secondary">About Me</a>
+                        <a href="blog-detail.html" class="btn btn-primary">Blog Detail</a>
+                    </div>
+
+                </div>
+
+                <div class="right">
+
+                    <div class="pattern-bg"></div>
+                    <div class="img-box">
+                        <img src="./assets/images/pic2.jpeg" alt="Julia Walker" class="hero-img">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="main">
+
+            <div class="container">
+
+                <!--
+          - BLOG SECTION
+        -->
+
+                <div class="blog">
+
+                    <h2 class="h2">Latest Projects</h2>
+
+                    <div class="blog-card-group">
+
+                        <div class="blog-card">
+
+                            <div class="blog-card-banner">
+                                <img src="./assets/images/Legal500.png"
+                                    alt="Building microservices with Dropwizard, MongoDB & Docker" width="250"
+                                    class="blog-banner-img">
+                            </div>
+
+                            <div class="blog-content-wrapper">
+
+                                <button class="blog-topic text-tiny">WordPress/PHP/MySQL</button>
+
+                                <h3>
+                                    <a href="legal-detail.html" class="h3" target="_blank">
+                                        Legal500
+                                    </a>
+                                </h3>
+
+                                <p class="blog-text">
+                                    This website operates on a WordPress multisite platform and offers a range of features for showcasing lawyer profiles worldwide, spanning various professional perspectives.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="blog-card">
+
+                            <div class="blog-card-banner">
+                                <img src="./assets/images/seamaster-homepage.png" alt="Fast web page loading on a $20 feature phone"
+                                    width="250" class="blog-banner-img">
+                            </div>
+
+                            <div class="blog-content-wrapper">
+
+                                <button class="blog-topic text-tiny">WordPress/WooCommerce/PHP/MySQL</button>
+
+                                <h3><a href="seamaster-detail.html" class="h3" target="_blank">SeaMaster</a></h3>
+
+                                <p class="blog-text">
+                                    This WordPress website provides users with the ability to browse a wide selection of yachts available in different locations. It also offers booking options based on criteria such as country and region.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="blog-card">
+
+                            <div class="blog-card-banner">
+                                <img src="./assets/images/trekaddict-homepage.png" alt="Accessibility Tips for Web Developers"
+                                    width="250" class="blog-banner-img">
+                            </div>
+
+                            <div class="blog-content-wrapper">
+
+                                <button class="blog-topic text-tiny">WordPress/WooCommerce/PHP/MySQL</button>
+
+                                <h3><a href="" class="h3">TrekAddict</a></h3>
+
+                                <p class="blog-text">
+                                    This WordPress website enables users to explore a diverse range of trekking destinations across different countries. It also provides the functionality to refine search results based on factors like distance and more.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="blog-card">
+
+                            <div class="blog-card-banner">
+                                <img src="./assets/images/Apollo-homepage.png"
+                                    alt="Dynamically Securing Databases using Hashicorp Vault" width="250"
+                                    class="blog-banner-img">
+                            </div>
+
+                            <div class="blog-content-wrapper">
+
+                                <button class="blog-topic text-tiny">WordPress/PHP/MySQL</button>
+
+                                <h3><a href="" class="h3">ApolloAgency</a></h3>
+
+                                <p class="blog-text">
+                                    This is a straightforward content-focused WordPress website for creative online and search marketing specialists, dedicated to assisting ambitious brands in increasing their bookings.
+                                </p>
+
+
+                            </div>
+
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <!--
+          - ASIDE
+        -->
+
+                <div class="aside">
+
+                    <div class="tags">
+
+                        <h2 class="h2">Technical Skills</h2>
+
+                        <div class="wrapper">
+                            <button class="hashtag">Core PHP</button>
+                            <button class="hashtag">Wordpress</button>
+                            <button class="hashtag">Theme customization</button>
+                            <button class="hashtag">Plugin development</button>
+                            <button class="hashtag">REST APIs</button>
+                            <button class="hashtag">HTML</button>
+                            <button class="hashtag">CSS</button>
+                            <button class="hashtag">Javascript</button>
+                            <button class="hashtag">jQuery</button>
+                            <button class="hashtag">Ajax</button>
+                            <button class="hashtag">MySQL</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="tags">
+
+                        <h2 class="h2">Management Tools</h2>
+
+                        <div class="wrapper">
+
+                            <button class="hashtag">Azure devops</button>
+                            <button class="hashtag">Trello</button>
+                            <button class="hashtag">Asana</button>
+                            <button class="hashtag">Jira</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="tags">
+
+                        <h2 class="h2">Soft Skills</h2>
+
+                        <div class="wrapper">
+
+                            <button class="hashtag">Communication</button>
+                            <button class="hashtag">Problem-solving</button>
+                            <button class="hashtag">Adaptability and flexibility</button>
+                            <button class="hashtag">Creative thinking</button>
+                            <button class="hashtag">Innovative Ideas</button>
+                            <button class="hashtag">Positive attitude</button>
+                            <button class="hashtag">Enthusiastic learner</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact">
+
+                        <h2 class="h2">Let's Talk</h2>
+
+                        <div class="wrapper">
+
+                            <p>
+                                Do you want to learn more about how I can help your company overcome problems? Let us
+                                have a
+                                conversation.
+                            </p>
+
+                            <ul class="social-link">
+
+                                <li>
+                                    <a href="mailto:nainsonia92@gmail.com" class="icon-box discord">
+                                        <ion-icon name="mail"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.linkedin.com/in/sonianain/" class="icon-box facebook">
+                                        <ion-icon name="logo-linkedin"></ion-icon>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+
+
+    <!--
+    - #FOOTER
+  -->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="wrapper">
+
+                <a href="#" class="footer-logo">
+                    <img src="./assets/images/logo-light.svg" alt="DevBlog's Logo" width="150" class="logo-light">
+                    <img src="./assets/images/logo-dark.svg" alt="DevBlog's Logo" width="150" class="logo-dark">
+                </a>
+
+                <p class="footer-text">
+                    Learn about WordPress, Core Php, and Web performance.
+                </p>
+
+            </div>
+
+            <div class="wrapper">
+
+                <p class="footer-title">Quick Links</p>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html" class="footer-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="about-me.html" class="footer-link">About Me</a>
+                    </li>
+
+                    <li>
+                        <a href="blog-detail.html" class="footer-link">Blog Detail</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            &copy; Copyright
+            <script>
+                var today = new Date();
+                document.write(today.getFullYear());
+            </script> <a href="#">DevBlog</a>
+        </p>
+
+    </footer>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
