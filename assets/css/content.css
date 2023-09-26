@@ -118,10 +118,6 @@
     margin-bottom: 1rem;
 }
 
-.about-main .aside{
-    display: none;
-}
-
 /*-------------------------------------*\
   #BLOG DETAILS
 \*--------------------------------------*/
@@ -213,4 +209,8 @@ section#blog-slider h2 {
     .about-us-wrapper figcaption{
         display: none;
     }
+    .about-main .aside{
+        display: none;
+    }
+    
   }
