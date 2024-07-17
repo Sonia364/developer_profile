@@ -1,6 +1,6 @@
 # DevBlog's Portfolio
 
-![DevBlog's Logo](path_to_logo_image)
+![DevBlog's Logo](assets/images/portfolio_home.png)
 
 ---
 
@@ -14,10 +14,10 @@ I am a web developer with a passion for creating websites and mobile application
 ---
 
 ## Latest Projects
-### [Legal500](https://link_to_project)
-### [SeaMaster](https://link_to_project)
-### [TrekAddict](https://link_to_project)
-### [ApolloAgency](https://link_to_project)
+### [Legal500](https://www.legal500.com/)
+### [SeaMaster](https://www.seamaster.co.uk/)
+### [TrekAddict](https://trekaddict.com/)
+### [ApolloAgency](https://theapolloagency.co.uk/)
 
 ---
 
@@ -34,12 +34,8 @@ I am a web developer with a passion for creating websites and mobile application
 ---
 
 ## Let's Talk
-Want to learn more about how I can help your company overcome problems? [Let’s have a conversation](mailto:your_email@example.com).
+Want to learn more about how I can help your company overcome problems? [Let’s have a conversation](mailto:nainsonia92@gmail.com).
 
 ---
 
-![DevBlog's Logo](path_to_logo_image)
-
-[Home](#home) | [About Me](#about-me) | © Copyright 2024
-
-Visit my [portfolio website](https://yourportfolio.com)
+Visit my [portfolio website](https://sonia364.github.io/developer_profile/)
