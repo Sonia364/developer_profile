@@ -486,7 +486,8 @@ header .btn-group {
   font-weight: 600;
   padding: 0.25rem 1rem;
   border-radius: 5px;
-  margin-bottom: 1rem;
+  cursor: default;
+  /* margin-bottom: 1rem; */
 }
 
 .blog-topic:hover {
@@ -855,6 +856,20 @@ img.blog-banner-img {
   margin-bottom: 0.3rem;
 }
 
+.git-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.git-wrap img {
+  width: 20px;
+  height: 20px;
+}
+
+.main-proj {
+  margin-bottom: 10px;
+}
 
 /*-----------------------------------*\ 
   #MEDIA QUERIES
