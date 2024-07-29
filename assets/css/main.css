@@ -6,6 +6,10 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 .light-theme {
 
   /**
