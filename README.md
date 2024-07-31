@@ -1,5 +1,12 @@
 # DevBlog's Portfolio
 
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
+![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
+![Session Storage](https://img.shields.io/badge/-SessionStorage-333333?logo=html5&logoColor=white&style=flat)
+
+
 ![DevBlog's Logo](assets/images/portfolio_home.png)
 ![DevBlog's Logo](assets/images/portfolio_home-2.png)
 
@@ -18,13 +25,6 @@ View the live project [here](https://sonia364.github.io/developer_profile/).
 - Contact form
 - Theme toggle with session storage
 - Mobile navigation with session storage
-
-## Tech Stack
-- ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
-- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
-- ![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat)
-- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
-- ![Session Storage](https://img.shields.io/badge/-SessionStorage-333333?logo=html5&logoColor=white&style=flat)
 
 ## Installation
 1. Clone the repository
