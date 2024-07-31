@@ -13,7 +13,7 @@
 ---
 
 ## About
-A portfolio website showcasing the projects and skills of Sonia Nain, a web developer specialized in Core PHP and JavaScript. Built using HTML, CSS, Tailwind CSS, JavaScript, and session storage.
+A portfolio website showcasing the projects and skills of Sonia Nain, a web developer specializing in Core PHP and JavaScript. Built using HTML, CSS, Tailwind CSS, JavaScript, and session storage.
 
 ## Live Demo
 View the live project [here](https://sonia364.github.io/developer_profile/).
@@ -22,9 +22,7 @@ View the live project [here](https://sonia364.github.io/developer_profile/).
 - Responsive design
 - Projects showcase
 - About me section
-- Contact form
 - Theme toggle with session storage
-- Mobile navigation with session storage
 
 ## Installation
 1. Clone the repository
