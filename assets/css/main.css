@@ -875,6 +875,13 @@ img.blog-banner-img {
   margin-bottom: 10px;
 }
 
+.light-theme .logo-light, .dark-theme .logo-dark {
+  display: block;
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
 /*-----------------------------------*\ 
   #MEDIA QUERIES
 \*-----------------------------------*/
