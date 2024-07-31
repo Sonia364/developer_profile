@@ -1,41 +1,45 @@
 # DevBlog's Portfolio
 
 ![DevBlog's Logo](assets/images/portfolio_home.png)
+![DevBlog's Logo](assets/images/portfolio_home-2.png)
 
 ---
 
-## Hi, I'm Sonia Nain
-**Web Developer**  
-Specialized in Core PHP and JavaScript
+## About
+A portfolio website showcasing the projects and skills of Sonia Nain, a web developer specialized in Core PHP and JavaScript. Built using HTML, CSS, Tailwind CSS, JavaScript, and session storage.
 
-### About Me
-I am a web developer with a passion for creating websites and mobile applications that are both aesthetically pleasing and functional.
+## Live Demo
+View the live project [here](https://github.com/sonia364/developer_profile).
 
----
+## Features
+- Responsive design
+- Projects showcase
+- About me section
+- Contact form
+- Theme toggle with session storage
+- Mobile navigation with session storage
 
-## Latest Projects
-### [Legal500](https://www.legal500.com/)
-### [SeaMaster](https://www.seamaster.co.uk/)
-### [TrekAddict](https://trekaddict.com/)
-### [ApolloAgency](https://theapolloagency.co.uk/)
+## Tech Stack
+- ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
+- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
+- ![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
+- ![Session Storage](https://img.shields.io/badge/-SessionStorage-333333?logo=html5&logoColor=white&style=flat)
 
----
+## Installation
+1. Clone the repository
+   ```sh
+   git clone https://github.com/sonia364/developer_profile.git
 
-## Technical Skills
-- JavaScript, Core PHP, WordPress, Drupal, WooCommerce, Shopify
-- Theme customization, Plugin development, REST APIs, HTML, CSS, jQuery, Angular, Ajax, MySQL, Python, Java, React, Docker, SonarQube, OOP
+2. Navigate to the project directory
+    ```sh
+    cd developer_profile
+3. Open index.html in your browser
 
-## Developer Tools
-- VS Code, Postman, Docker, Bedrock, phpMyAdmin, Azure, Git, Bitbucket, Trello, Asana, Jira, Microsoft Office, Xcode, Android Studio, PyCharm, IntelliJ
+## Usage
+- Theme Toggle: Click the theme button to toggle between light and dark themes.
+- Mobile Navigation: Click the menu button to open/close the navigation.
+- View Projects: Browse the projects section for links and details.
 
-## Soft Skills
-- Communication, Problem-solving, Adaptability and flexibility, Creative thinking, Innovative ideas, Positive attitude, Enthusiastic learner
-
----
-
-## Let's Talk
-Want to learn more about how I can help your company overcome problems? [Let’s have a conversation](mailto:nainsonia92@gmail.com).
-
----
-
-Visit my [portfolio website](https://sonia364.github.io/developer_profile/)
+## Contact
+Created by [Sonia Nain](mailto:nainsonia92@gmail.com) - feel free to contact me!
