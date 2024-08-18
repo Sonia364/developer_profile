@@ -7,7 +7,7 @@
 
 // const gallery = baguetteBox.run(".gallery");
 
-document.querySelector("#search").addEventListener("keyup", userSearch);
+// document.querySelector("#search").addEventListener("keyup", userSearch);
 
 function userSearch() {
    const caption = document.querySelectorAll("a[data-caption]");
