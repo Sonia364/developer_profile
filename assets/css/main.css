@@ -882,6 +882,15 @@ img.blog-banner-img {
   object-fit: contain;
 }
 
+a.about-nav-link {
+  color: #feac5d;
+  font-weight: bold;
+}
+
+a.about-nav-link:hover {
+ text-decoration: underline;
+}
+
 /*-----------------------------------*\ 
   #MEDIA QUERIES
 \*-----------------------------------*/
