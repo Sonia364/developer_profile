@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBlog - About Me</title>
+
+    <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/sn-intial-favicon.png" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/content.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/baguetteBox.min.css">
+</head>
+
+<body class="light-theme">
+
+    <!--
+    - #HEADER
+  -->
+
+    <header>
+
+        <div class="container">
+
+            <nav class="navbar">
+
+                <a href="index.html">
+                    <img src="./assets/images/sn-intial.png" alt="Devblog's logo" width="150" class="logo-light">
+                    <img src="./assets/images/sn-intial-white.png" alt="Devblog's logo" width="150" class="logo-dark">
+                </a>
+
+                <div class="btn-group">
+
+                    <button class="theme-btn theme-btn-mobile light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+
+                    <button class="nav-menu-btn">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+
+                </div>
+
+                <div class="flex-wrapper">
+
+                    <ul class="desktop-nav">
+
+                        <li>
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="index.html#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="index.html#college-projects" class="nav-link">College Projects</a>
+                        </li>
+                        <li>
+                            <a href="about-me.html" class="nav-link">About Me</a>
+                        </li>
+
+                    </ul>
+
+                    <button class="theme-btn theme-btn-desktop light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+
+                </div>
+
+                <div class="mobile-nav">
+
+                    <button class="nav-close-btn">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                    <div class="wrapper">
+
+                        <p class="h3 nav-title">Main Menu</p>
+
+                        <ul>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index.html#projects" class="nav-link">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index.html#college-projects" class="nav-link">College Projects</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="about-me.html" class="nav-link">About Me</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+    <main class="main-gallery">
+
+    <div class="heading">
+      <h1 class="title">Interactive Photo Gallery</h1>
+      <div class="search-box">
+        <input type="search" id="search" placeholder="Search...">
+      </div>
+    </div>
+    <div class="gallery-container gallery" id="photos">
+      <ul id="container">
+        <li> <a href="./photos/01.jpg"
+            data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields."
+            data-alt="Hay Bales">
+            <img src="photos/thumbnails/01.jpg" alt="Hay Bales." class="gallery__item">
+          </a>
+        </li>
+        <li><a href="photos/02.jpg"
+            data-caption="The lake was so calm today. We had a great view of the snow on the mountains from here."
+            data-alt="Lake">
+            <img src="photos/thumbnails/02.jpg" alt="Lake" class="gallery__item">
+          </a>
+        </li>
+        <li> <a href="photos/03.jpg"
+            data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below."
+            data-alt="Canyon">
+            <img src="photos/thumbnails/03.jpg" alt="Canyon" class="gallery__item">
+          </a>
+        </li>
+        <li><a href="photos/04.jpg"
+            data-caption="It was amazing to see an iceberg up close, it was so cold but didn’t snow today."
+            data-alt="Iceberg">
+            <img src="photos/thumbnails/04.jpg" alt="Iceberg" class="gallery__item">
+          </a>
+        </li>
+        <li> <a href="photos/05.jpg"
+            data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons."
+            data-alt="Desert">
+            <img src="photos/thumbnails/05.jpg" alt="Desert" class="gallery__item">
+          </a>
+        </li>
+        <li> <a href="photos/06.jpg"
+            data-caption="Fall is coming, I love when the leaves on the trees start to change color." data-alt="Fall">
+            <img src="photos/thumbnails/06.jpg" alt="Fall" class="gallery__item">
+          </a>
+        </li>
+        <li><a href="photos/07.jpg" data-caption="I drove past this plantation yesterday, everything is so green!"
+            data-alt="Plantation">
+            <img src="photos/thumbnails/07.jpg" alt="Plantation" class="gallery__item">
+          </a>
+        </li>
+        <li> <a href="photos/08.jpg" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!"
+            data-alt="Dunes">
+            <img src="photos/thumbnails/08.jpg" alt="Dunes" class="gallery__item">
+          </a>
+        </li>
+        <li><a href="photos/09.jpg" data-caption="We enjoyed a quiet stroll down this countryside lane."
+            data-alt="Countryside Lane">
+            <img src="photos/thumbnails/09.jpg" alt="Countryside Lane" class="gallery__item">
+          </a>
+        </li>
+        <li> <a href="photos/10.jpg" data-caption="Sunset at the coast! The sky turned a lovely shade of orange."
+            data-alt="Sunset">
+            <img src="photos/thumbnails/10.jpg" alt="Sunset" class="gallery__item">
+          </a>
+        </li>
+        <li> <a href="photos/11.jpg"
+            data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking."
+            data-alt="Cave">
+            <img src="photos/thumbnails/11.jpg" alt="Cave" class="gallery__item">
+          </a>
+        </li>
+        <li> <a href="photos/12.jpg"
+            data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."
+            data-alt="Bluebells">
+            <img src="photos/thumbnails/12.jpg" alt="Bluebells" class="gallery__item">
+          </a>
+        </li>
+      </ul>
+    </div>
+</main>
+
+
+
+
+
+<!--
+    - #FOOTER
+  -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="wrapper">
+
+            <a href="index.html" class="footer-logo">
+                <img src="./assets/images/sn-intial.png" alt="Devblog's logo" width="150" class="logo-light">
+                <img src="./assets/images/sn-intial-white.png" alt="Devblog's logo" width="150" class="logo-dark">
+            </a>
+
+        </div>
+
+        <div class="wrapper">
+
+            <p class="footer-title">Quick Links</p>
+
+            <ul>
+
+                <li>
+                    <a href="index.html" class="footer-link">Home</a>
+                </li>
+
+                <li>
+                    <a href="about-me.html" class="footer-link">About Me</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <p class="copyright">
+        &copy; Copyright 2023
+    </p>
+
+</footer>
+
+<!--
+    - custom js link
+  -->
+  <script>
+    window.addEventListener('load', function () {
+      baguetteBox.run(".gallery", {
+        captions: true,
+        buttons: 'auto',
+        fullScreen: false,
+        noScrollbars: false,
+        titleTag: true,
+        async: false,
+        preload: 2,
+        animation: 'fadeIn',
+        onChange: null
+      });
+    });
+  </script>
+  <script src="./assets/js/baguetteBox.min.js" async></script>
+  <!-- <script src="assets/js/searchFilter.js"></script> -->
+  <script src="./assets/js/app.js"></script>
+<script src="./assets/js/script.js"></script>
+
+<!--
+    - ionicon link
+  -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
